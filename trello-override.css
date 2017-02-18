@@ -1,3 +1,4 @@
+/* CARD ID */
 .card-short-id {
   display: inline !important;
   font-size: 12px;
@@ -12,7 +13,13 @@
   content:") ";
 }
 
-
+/* LIST CARD COUNTER */
 .list-header-num-cards {
   display: inline !important;
+}
+
+/* TOTAL CARDS COUNTER */
+#total-cards {
+  padding: 0 10px 0 10px;
+  margin: 0 4px 0 4px;
 }
