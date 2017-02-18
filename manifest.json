@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Trello Cards Plus",
+  "version": "1.0",
+  "description": "Card counter and card id's for easy collaboration and project management",
+  "content_scripts": [{
+    "matches": ["https://trello.com/*"],
+    "css": ["trello-override.css"],
+    "js": ["jquery-3.1.1.min.js", "trello-override.js"]
+  }]
+}

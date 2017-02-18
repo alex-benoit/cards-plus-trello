@@ -1,0 +1,18 @@
+.card-short-id {
+  display: inline !important;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-short-id::before {
+  content:"(";
+}
+
+.card-short-id::after {
+  content:") ";
+}
+
+
+.list-header-num-cards {
+  display: inline !important;
+}
