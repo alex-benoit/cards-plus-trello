@@ -3,6 +3,7 @@
   "name": "Trello Cards Plus",
   "version": "1.0",
   "description": "Card counter and card id's for easy collaboration and project management",
+  "icons": { "128": "trelloext.png" },
   "content_scripts": [{
     "run_at" :"document_end",
     "matches": ["https://trello.com/b/*"],
