@@ -20,6 +20,15 @@
 
 /* TOTAL CARDS COUNTER */
 #total-cards {
+  background: rgba(0,0,0,.3);
+  cursor: pointer;
+  color: #f6f6f6;
+  border-radius: 3px;
+  float: left;
+  font-size: 9pt;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
   padding: 0 10px 0 10px;
   margin: 0 4px 0 4px;
 }

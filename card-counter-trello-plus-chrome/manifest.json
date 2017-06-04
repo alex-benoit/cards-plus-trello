@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Card counter and card id's for easy collaboration and project management",
   "content_scripts": [{
-    "run_at" :"document_idle",
+    "run_at" :"document_end",
     "matches": ["https://trello.com/b/*"],
     "js": ["jquery-2.0.0.min.js", "trello-override.js"],
     "css": ["trello-override.css"]
