@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Trello Card Counter Plus",
-  "version": "1.0.1",
+  "name": "Trello Card Counter",
+  "version": "1.0.2",
   "description": "Card counter and card ID's for easy collaboration and project management",
   "icons": { "128": "trelloext.png" },
   "content_scripts": [{
