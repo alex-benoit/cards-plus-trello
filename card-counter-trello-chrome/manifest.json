@@ -1,13 +1,19 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Trello Card Counter",
-  "version": "2.0.0",
-  "description": "Card counter and card ID's for easy collaboration and project management",
-  "icons": { "128": "trelloext.png" },
+  "version": "3.0.0",
+  "description": "Card counters and card identifiers for easy collaboration and project management",
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [{
-    "run_at" :"document_end",
-    "matches": ["https://trello.com/*"],
+    "run_at" :"document_idle",
+    "matches": ["https://trello.com/b/*"],
     "js": ["trello-override.js"],
     "css": ["trello-override.css"]
-  }]
+  }],
+  "icons": {
+    "128": "trelloext.png"
+  }
 }

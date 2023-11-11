@@ -1,35 +1,24 @@
-/* CARD ID */
-.card-short-id {
-  display: inline !important;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.card-short-id::before {
-  content:"(";
-}
-
-.card-short-id::after {
-  content:") ";
-}
-
-/* LIST CARD COUNTER */
-.list-header-num-cards {
-  display: inline !important;
-}
-
-/* TOTAL CARDS COUNTER */
-#total-cards {
-  background: rgba(0,0,0,.3);
-  cursor: pointer;
-  color: #f6f6f6;
+.board-badge-counter {
+  margin-right: 5px;
+  background-color: var(--dynamic-button-hovered, #091E4224);
   border-radius: 3px;
-  float: left;
-  font-size: 9pt;
-  height: 30px;
-  line-height: 30px;
-  text-decoration: none;
-  padding: 0 10px 0 10px;
-  margin: 0 4px 0 4px;
+  padding: 6px 8px;
+  color: var(--dynamic-text, #172b4d);
 }
 
+.list-badge-counter {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: var(--ds-background-neutral-hovered, #091e4224);
+}
+
+.card-identifier {
+  position: absolute;
+  height: 8px;
+  right: 3px;
+  top: 3px;
+  display: flex;
+  align-items: center;
+  font-size: 70%;
+  color: var(--ds-text, #172b4d);
+}
