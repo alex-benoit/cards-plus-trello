@@ -3,7 +3,7 @@
   "name": "Trello Card Counter",
   "version": "3.0.0",
   "description": "Card counters and card identifiers for easy collaboration and project management",
-  "permissions": ["scripting", "storage"],
+  "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html"
   },
